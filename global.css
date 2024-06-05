@@ -1,0 +1,384 @@
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+/* ------------------- */
+@keyframes slide-in-diagonal {
+  0% {
+    transform: translate(100%, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.iphone-13-pro-front-icon2  {
+  animation: slide-in-diagonal 0.5s ease-out;
+}
+
+
+
+/* -------------------------------------------------------- */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+
+
+
+/* --------------------------------------------------- */
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    box-shadow: none;
+  }
+  100% {
+    transform: translateX(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.on-hold {
+  animation: slideInFromRight 0.5s ease-out;
+}
+
+/* --------------------------------------------- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.uifry-premium-parent {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.group-parent9,
+.group-parent10,
+.group-parent11 {
+  animation: fadeIn 1s ease-in-out 0.2s;
+}
+
+.star-05-icon {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ----------------------------------------------------------- */
+@keyframes fadeInAndScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.make-the-best {
+  opacity: 0;
+  animation-name: fadeInAndScale;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+.cum-et-convallis {
+  opacity: 0;
+  animation-name: fadeInAndScale;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+/* ------------------------------------------------------------- */
+@keyframes glowingOval {
+  0% {
+    background: radial-gradient(ellipse at center, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 0) 70%);
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7);
+  }
+  50% {
+    background: radial-gradient(ellipse at center, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 0) 90%);
+    box-shadow: 0 0 40px rgba(255, 165, 0, 0.9);
+  }
+  100% {
+    background: radial-gradient(ellipse at center, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 0) 70%);
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7);
+  }
+}
+
+.oval {
+  width: 200px;
+  height: 150px;
+  background: radial-gradient(ellipse at center, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 0) 70%);
+  border-radius: 50%;
+  animation: glowingOval 2s ease-in-out infinite;
+}
+/* ---------------------------------------------------- */
+ h1 p {
+	color: #fff;
+	font-family: "Protest Riot", sans-serif;
+	font-size: 60px;
+}
+.cursor {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	mix-blend-mode: difference;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: width 0.3s, height 0.3s, background-color 0.3s;
+	animation: glow 1s infinite alternate;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 5px darkblue;
+  }
+  100% {
+    box-shadow: 0 0 200px 100px darkblue;
+  }
+}
+
+/* ------------------------------------------------------------ */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.app-landing-page-child7 {
+  animation: rotate 2s linear infinite;
+}
+
+
+.app-landing-page-child6 {
+  animation: rotate 2s linear infinite;
+}
+
+
+/* .app-landing-page-child {
+  animation: rotate 2s linear infinite;
+} */
+
+.group-child9 {
+  animation: rotate 2s linear infinite;
+}
+.group-child10 {
+  animation: rotate 2s linear infinite;
+}
+.group-child12 {
+  animation: rotate 2s linear infinite;
+}
+.group-child12 {
+  animation: rotate 2s linear infinite;
+}
+.group-child13 {
+  animation: rotate 2s linear infinite;
+}
+.group-child14 {
+  animation: rotate 2s linear infinite;
+}
+.group-child15 {
+  animation: rotate 2s linear infinite;
+}
+.group-child16 {
+  animation: rotate 2s linear infinite;
+}
+.star-05-icon {
+  animation: rotate 2s linear infinite;
+}
+.star-icon {
+  animation: rotate 2s linear infinite;
+}
+
+.frame-child2 {
+  animation: rotate 2s linear infinite;
+}
+.frame-child4 {
+  animation: rotate 2s linear infinite;
+}
+.frame-child5 {
+  animation: rotate 2s linear infinite;
+}
+.frame-child6  {
+  animation: rotate 2s linear infinite;
+}
+
+.group-child7{
+  animation: rotate 2s linear infinite;
+}
+
+.group-child17{
+  animation: rotate 2s linear infinite;
+}
+.auto-layout-horizontal-parent{
+ 
+  background-color: rgb(143, 138, 138);
+  border-radius: 10px;
+  margin-bottom: 2px;
+  box-shadow: 2px 10px rgb(0, 0, 0);
+
+}
+
+/* ---------------------------------------------------------------- */
+.auto-layout-horizontal-parent {
+  position: relative;
+}
+
+.auto-layout-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  margin-right: 20px;
+}
+
+.about-us {
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.about-us::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.about-us:hover::before {
+  transform: scaleX(1);
+}
+
+.about-us:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+/* -------------------------------------------------- */
+.content p{
+  width: 700px;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: justify;
+}
+@keyframes hide-cursor {
+  from {
+    cursor: default;
+  }
+  to {
+    cursor: none;
+  }
+}
+
+body {
+  animation: hide-cursor 0s forwards;
+}
+
+
+.cursor{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .1s;
+}
+
+.cursor2{
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .15s;
+}
+
+.content:hover ~ .cursor{
+  transform: translate(-50%, -50%) scale(1.5);
+  background-color: #c6c6c6;
+  opacity: .5;
+}
+
+.content:hover ~ .cursor2{
+  opacity: 0;
+}
+
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-clash-display: "Clash Display";
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-dm-sans: "DM Sans";
+  --font-nunito-sans: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-8xs-2: 4.2px;
+  --font-size-9xl: 28px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-tomato: #ff5555;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --s: -13px 13px 104.09px rgba(161, 161, 161, 0.1);
+}
